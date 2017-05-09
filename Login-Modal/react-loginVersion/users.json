@@ -1,0 +1,7 @@
+[
+{"username" : "cami" , "password" : "cami", "image" : "images/1.jpg"},
+{"username" : "andi" , "password" : "andi", "image" : "images/3.jpg"},
+{"username" : "a" , "password" : "pass1" , "image" : "images/4.jpg"},
+{"username" : "user2", "password" : "pass2" , "image" : "images/5.jpg"},
+{"username" : "user3", "password" : "pass2", "image" : "images/2.jpg"}
+]

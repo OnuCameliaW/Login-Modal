@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700,800,900');
+.container{
+	width: 500px;
+  margin: auto;
+  margin-top: 5%;
+
+}
+#homepage {
+  text-align: center;
+}
+#profileImage {
+	transition: all 500ms;
+	width: 100px;
+	height: 100px;
+	 border-radius: 50%;
+  	background-color: #fff;
+  	border: 4px solid #f4f4f4;
+  	margin-left: 40%;
+}
+.active {
+  animation-name: in-out;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes in-out {
+  10%,
+  15% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+  30%,
+  45% {
+    -webkit-transform: scale(1.1);
+    transform scale(1.1)
+  }
+  60%,
+  100% {
+    -webkit-transform: scale(1);
+    transform scale(1)
+  }
+}
+#loginButton {
+    margin-top: 8%;
+    margin-left: 40%;
+}
+.unchecked {
+	background-image: url(images/unchecked.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+.checked {
+	background-image: url(images/checked.png);
+	background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+.activeHomepage {
+  animation-name: in-outHomepage;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes in-outHomepage {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body {
+  background-color:black;
+}
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: Roboto;
+}
+#homepage {
+  width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+#overlay {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+    opacity: 0.5;
+    background-color: grey;
+}
+#modal {
+  padding: 50px;
+    width: 1000px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    margin-left: -250px;
+    background-color: #303030;
+
+}
+h1 {
+  background: transparent;
+}
+#brandImage {
+  width: 100%;
+}
+#title {
+  width: 100%;
+}
+#year {
+  width: 65px;
+}
+.col {
+
+  display: inline-block;
+  margin-bottom: 20px;
+}
+#titleCol {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+}
+#damagedLabel {
+  display: block;
+}
+#damagedCol {
+  display: block;
+}
+.formButtons {
+  cursor: pointer;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  display: block;
+
+}
+#colorValue {
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+#color{
+  padding: 0;
+}
+select {
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 0 5px;
+  color: black;
+}
+input {
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+textarea {
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+#cancel {
+  float: right;
+}
+#close { 
+  float: right;
+  margin-top: -73px;
+    margin-right: -78px;
+    cursor: pointer;
+  background-color: #375a7f;
+  border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+#brandImageSpan {
+  width: 19%;
+    float: right;
+}
+#damagedDetails {
+  display: none;
+}
+#modelCol {
+  display: none;
+}
+.required {
+  color:red;
+  margin-right: 3px;
+}
+#damaged {
+  margin-left: 5px;
+}
+.col-lg-3, .col-lg-6{
+  padding-left: 0px;
+}
+.panel {
+  width: 50%;
+  margin: auto;
+}
+.info {
+  font-weight: bold;
+  font-size: 17px;
+}
+.info .spanInfo {
+  font-weight: 400;
+    font-size: 15px;
+}
+#homepage h1 {
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+label {
+  font-weight: 400;
+}
+.btn {
+  padding: 6px 15px;
+}
+input, textarea {
+  font-size: 14px;
+}
+#backButton {
+  margin-right: 100px;
+}

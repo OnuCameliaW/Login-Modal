@@ -1,0 +1,5 @@
+[
+{"brand" : "bmw" , "options" : [ "Sedan", "Coupe","Roadster"]},
+{"brand" : "vw" , "options" : ["Bora", "Polo","Passat"]},
+{"brand" : "audi" , "options" : ["A3", "A4","Q7"]}
+]
